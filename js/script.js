@@ -5,8 +5,8 @@ $('.features-block-slider').slick({
     fade: true,
     autoplay: false,
     cssEase: 'linear',
-    prevArrow: `<img src='../../img/arrow-left.svg' class="slick-prev"/>`,
-    nextArrow: `<img src='../../img/arrow-right.svg' class="slick-next"/>`,
+    prevArrow: `<img src='../img/arrow-left.svg' class="slick-prev"/>`,
+    nextArrow: `<img src='../img/arrow-right.svg' class="slick-next"/>`,
   });
 $('.laboratory-inner').slick({
     dots: false,
@@ -14,8 +14,8 @@ $('.laboratory-inner').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: `<img src='../../img/arrow-left.svg' class="slick-prev"/>`,
-    nextArrow: `<img src='../../img/arrow-right.svg' class="slick-next"/>`,
+    prevArrow: `<img src='../img/arrow-left.svg' class="slick-prev"/>`,
+    nextArrow: `<img src='../img/arrow-right.svg' class="slick-next"/>`,
     responsive: [
       {
         breakpoint: 1024,
